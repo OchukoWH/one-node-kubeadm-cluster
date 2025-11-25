@@ -1,6 +1,6 @@
 # One-Node kubeadm Cluster
 
-This project spins up a single Ubuntu 22.04 VM with Vagrant and builds a Kubernetes control-plane node with `kubeadm`. The node is automatically untainted so you can schedule user workloads on it, making it ideal for local security experiments or demos. The upstream repository lives at [OchukoWH/one-node-kubeadm-cluster](https://github.com/OchukoWH/one-node-kubeadm-cluster.git).
+This project spins up a single Ubuntu 22.04 VM with Vagrant and builds a Kubernetes control-plane node with `kubeadm`. The node is automatically untainted so you can schedule user workloads on it, making it ideal for local security experiments or demos.
 
 ## What Gets Provisioned
 
