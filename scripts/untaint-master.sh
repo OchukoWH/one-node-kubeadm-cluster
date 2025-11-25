@@ -24,8 +24,7 @@ echo "Node detected: $NODE_NAME"
 echo "=== Checking current taints ==="
 kubectl describe node "$NODE_NAME" | grep -i taints || echo "No taints found."
 
-echo "=== Removing master/control-plane taints ==="
-kubectl taint nodes "$NODE_NAME" node-role.kubernetes.io/master- || true
+echo "=== Removing control-plane taints ==="
 kubectl taint nodes "$NODE_NAME" node-role.kubernetes.io/control-plane- || true
 
 echo "=== Verifying taints ==="
