@@ -11,5 +11,4 @@ cd one-node-kubeadm-cluster
 
 echo "Bringing up the lab..."
 vagrant up
-vagrant ssh master
 
